@@ -29,7 +29,7 @@ Proficiency in languages such as Python, R, SQL, along with Data Analysis, Stati
 This portfolio is a showcase of selected projects I completed during my education, reflecting my ability to tackle complex data challenges.
 
 
-- **1. Data Acquisition** 
+- [**1. Data Acquisition**](_projects/Data_Acquisition)
 Overview: A brief description of the project.
 Technologies Used: Tools and languages used (e.g., Python, R, Jupyter Notebook, SQL).
 Key Findings or Insights: Highlight the most important results of your analysis.
