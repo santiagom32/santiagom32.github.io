@@ -1,11 +1,13 @@
-# **Data Scientist**
+# Data Scientist
 
-## **Yesid S Moreno**
-**Contact Information: ** 
--santiagomoreno32@icloud.com  
--4072278568 
--[LinkedIn](https://www.linkedin.com/in/yesid-moreno-883bb3181/) 
+## Yesid S Moreno
 
+**Contact Information:** 
+
+- santiagomoreno32@icloud.com  
+- 4072278568 
+- [LinkedIn](https://www.linkedin.com/in/yesid-moreno-883bb3181/)
+  
 Brief Introduction: A short paragraph about yourself, your background, and your interest in data analysis/data science.
 About Me
 Educational Background: Mention your master's degree in data analysis and any relevant coursework.
