@@ -19,7 +19,7 @@ I am currently enrolled in a  Master's in Data Analysis at Western Governors Uni
 -  **Bachelor of Science, BA Information Technology Management** - Western Governors University. Graduated, 2022.
 
   
-# Skills:
+## Skills:
 
 Proficiency in languages such as Python, R, SQL, along with Data Analysis, Statistical Analysis, Machine Learning, Data Visualization, Data Cleaning and Preprocessing, Predictive Modeling, Natural Language Processing (NLP), Deep Learning, and Business Acumen.
 
@@ -29,14 +29,26 @@ Proficiency in languages such as Python, R, SQL, along with Data Analysis, Stati
 This portfolio is a showcase of selected projects I completed during my education, reflecting my ability to tackle complex data challenges.
 
 
-Skills: List programming languages (Python, R, SQL, etc.), tools (Excel, Tableau, Power BI, etc.), and methodologies (machine learning, statistical analysis, etc.) you are proficient in.
-Projects
-For each project, include the following details:
-
-Project Title
+- **1. Data Acquisition** 
 Overview: A brief description of the project.
 Technologies Used: Tools and languages used (e.g., Python, R, Jupyter Notebook, SQL).
 Key Findings or Insights: Highlight the most important results of your analysis.
-Link to Project: Provide a link to the repository or folder within the repository that contains all the project files and documentation.
-Certifications and Courses
-List any relevant certifications or online courses you've completed, especially those related to data analysis or data science.
+
+- **2. Data Cleaning**
+
+- **3. Exploratory Data Analysis**
+  
+- **4. Predictive Modeling**
+
+- **5. Data Mining**
+
+- **6. Data Representation (Tableau)**
+ 
+- **7. Advanced Data Acquisition**
+
+- **8. Advanced Data Mining**
+
+- **9. Time Series Modeling**
+
+- **10. Neural Networks Sentiment Analysis**
+
