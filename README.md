@@ -29,7 +29,7 @@ Proficiency in languages such as Python, R, SQL, along with Data Analysis, Stati
 This portfolio is a showcase of selected projects I completed during my education, reflecting my ability to tackle complex data challenges.
 
 
-- [**1. Data Acquisition**](/projects/Data_Acquisition)
+- [**1. Data Acquisition**]([/projects/Data_Acquisition](https://github.com/santiagom32/santiagom32.github.io/blob/194d316442f9bba59e515fa14ab8555e43b4e32d/_projects/Data_Acquisition.md))
 Overview: A brief description of the project.
 Technologies Used: Tools and languages used (e.g., Python, R, Jupyter Notebook, SQL).
 Key Findings or Insights: Highlight the most important results of your analysis.
