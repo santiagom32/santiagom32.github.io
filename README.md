@@ -10,7 +10,7 @@
   
 Welcome to my professional portfolio! I am Yesid Moreno, a budding data scienst with a comprehensive background in data analysis, honed through my education journey. My passion for data-driven decision-making and insightful analytics has been the driving force behind each project you will see here.
 
-##Education:
+## Education:
 
 I am currently enrolled in a  Master's in Data Analysis at Western Governors University, where I delved deep into Deep learning, neural networks, NLP, data regreshion, model architecture, time series analysi, sql, etc. 
 
@@ -19,14 +19,12 @@ I am currently enrolled in a  Master's in Data Analysis at Western Governors Uni
 -  **Bachelor of Science, BA Information Technology Management** - Western Governors University. Graduated, 2022.
 
   
-#Skills:
+# Skills:
 
 Proficiency in languages such as Python, R, SQL, along with Data Analysis, Statistical Analysis, Machine Learning, Data Visualization, Data Cleaning and Preprocessing, Predictive Modeling, Natural Language Processing (NLP), Deep Learning, and Business Acumen.
 
-List programming languages (Python, R, SQL, etc.), tools (Excel, Tableau, Power BI, etc.), and methodologies (machine learning, statistical analysis, etc.) you are proficient in.
-Projects
-For each project, include the following details:
 
+## Projects:
 
 This portfolio is a showcase of selected projects I completed during my education, reflecting my ability to tackle complex data challenges.
 
