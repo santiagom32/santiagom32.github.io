@@ -2,5 +2,5 @@
 layout: page
 title: "Project Title"
 permalink: /projects/project-title/
-theme
+theme: jekyll-theme-minimal 
 ---
