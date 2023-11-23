@@ -1,4 +1,4 @@
 ---
 layout: default
-title: "Project Title"
+title: "Data Cleaning"
 ---
