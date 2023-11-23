@@ -34,7 +34,7 @@ Overview: A brief description of the project.
 Technologies Used: Tools and languages used (e.g., Python, R, Jupyter Notebook, SQL).
 Key Findings or Insights: Highlight the most important results of your analysis.
 
-- [**2. Data Cleaning**](Projects/Data_cleaning.md)
+- [**2. Data Cleaning**](Projects/Data_Cleaning.md)
 
 - [**3. Exploratory Data Analysis**](Projects/Exploratory_DataAnalysis.md)
   
