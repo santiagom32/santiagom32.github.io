@@ -34,19 +34,19 @@ Overview: A brief description of the project.
 Technologies Used: Tools and languages used (e.g., Python, R, Jupyter Notebook, SQL).
 Key Findings or Insights: Highlight the most important results of your analysis.
 
-- **2. Data Cleaning**
+- [**2. Data Cleaning**](Projects/Data_cleaning.md)
 
-- **3. Exploratory Data Analysis**
+- [**3. Exploratory Data Analysis**](Projects/Exploratory_DataAnalysis.md)
   
-- **4. Predictive Modeling**
+- [**4. Predictive Modeling**](Projects/Predictive_Modeling.md)
 
-- **5. Data Mining**
+- [**5. Data Mining**](Projects/Data_Mining.md)
 
-- **6. Data Representation (Tableau)**
+- [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
  
-- **7. Advanced Data Acquisition**
+- [**7. Advanced Data Acquisition**](Projects/Advanced_Dataacquisition.md)
 
-- **8. Advanced Data Mining**
+- [**8. Advanced Data Mining**](Projects/Advanced_Datamining.md)
 
 - **9. Time Series Modeling**
 
