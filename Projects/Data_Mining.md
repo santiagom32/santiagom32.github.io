@@ -1,4 +1,4 @@
 ---
 layout: default
-title: "Data_Mining"
+title: "Data Mining"
 ---
