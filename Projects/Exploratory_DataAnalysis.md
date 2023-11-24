@@ -41,9 +41,6 @@ else:
 ```
 <img width="252" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/73134325-716e-4698-9fa9-d9345b8e814f">
 
-```
-
-```
 
 ## Univariable Statistics:
 
@@ -59,7 +56,6 @@ Identified distributions like bimodal and positive skewness in these variables.
 <img width="446" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/5ded328c-5243-4150-92f7-3bf4bc25eb3c">
 
 
-
 ## Bivariate Statistics:
 
 Examined the correlation between continuous variables (age and income) and the relationship between categorical variables (Overweight and soft drink consumption) using scatter plots and bar charts.
@@ -67,7 +63,7 @@ Found a uniform distribution for age vs. income and diverse drinking habits.
 
 <img width="194" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/4d2d666a-f28a-4290-8520-980acae8c0fd">
 
-![Uploading image.png…]()
+<img width="222" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/cc6bd99b-402c-446c-91c1-781aafd4c381">
 
 
 ## Implications and Significance::
