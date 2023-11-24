@@ -47,7 +47,7 @@ else:
 Analyzed the distribution of continuous variables (patient income and total charges) and categorical variables (gender and state) using histograms and bar charts.
 Identified distributions like bimodal and positive skewness in these variables.
 
-<img width="199" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/205fa8a2-a723-483f-8c27-e354aa44af13">
+<img width="195" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/205fa8a2-a723-483f-8c27-e354aa44af13">
 
 <img width="195" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/1fbd0d16-7b69-4b3f-bb1c-2c8b505026d0">
 
@@ -61,9 +61,9 @@ Identified distributions like bimodal and positive skewness in these variables.
 Examined the correlation between continuous variables (age and income) and the relationship between categorical variables (Overweight and soft drink consumption) using scatter plots and bar charts.
 Found a uniform distribution for age vs. income and diverse drinking habits.
 
-<img width="194" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/4d2d666a-f28a-4290-8520-980acae8c0fd">
+<img width="200" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/4d2d666a-f28a-4290-8520-980acae8c0fd">
 
-<img width="222" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/cc6bd99b-402c-446c-91c1-781aafd4c381">
+<img width="200" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/cc6bd99b-402c-446c-91c1-781aafd4c381">
 
 
 ## Implications and Significance::
