@@ -87,3 +87,12 @@ CSV HEADER;
 ![sample:](/assets/SCR-20231123-rrcf.png)
 
 [download resulting csv.](/assets/Data_acquisition.csv)
+
+## Significance
+
+This project is significant in showcasing my abilities to:
+
+- Integrate and analyze data from diverse sources.
+- Utilize SQL for data manipulation and querying.
+- Develop logical and physical data models.
+- Implement effective data strategies for business intelligence.
