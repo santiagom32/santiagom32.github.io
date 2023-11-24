@@ -78,6 +78,7 @@ DELIMITER ','
 CSV HEADER;
 ```
 
-##Deliverables
+##Deliverables:
 - SQL Scripts for table creation, data loading, and querying.
-- A CSV file capturing the results from the queries. (download)
+- A CSV file capturing the results from the queries. ![download](assets/D205.csv)
+* ![sample:](assets/SCR-20231123-rrcf.png)
