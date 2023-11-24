@@ -45,7 +45,7 @@ msno.matrix(md_info, fontsize = 15, labels=True)
 plt.title("null records")
 plt.show()
 ```
-[null_vizualisation](/assets/SCR-20231123-udza.png)
+![null_vizualisation](/assets/SCR-20231123-udza.png)
 ```
 #checks for median, mode, mean values before modifying data in "Overweight"
 print("median",md_info['Overweight'].median())
@@ -61,9 +61,25 @@ sum_by_value = md_info.groupby('Overweight')['Overweight'].count()
 print("Sum",sum_by_value)
 
 ```
-[median vizualisation](/assets/SCR-20231123-ufqi.png)
+![median vizualisation](/assets/SCR-20231123-ufqi.png)
 
 ```
+#remove null values in "Overweight"
+md_info.dropna(subset=["Overweight"], inplace=True)
+#double checks for null values
+print("null:",md_info['Overweight'].isnull().sum())
+#new histogram with modified data
+plt.hist(md_info['Overweight'])
+plt.title('is the patient overweight')
+plt.ylabel('# of patients')
+plt.xticks([0, 1], ['No', 'Yes'])
+plt.show()
+#check original values are not modified after removing nulls
+sum_by_value = md_info.groupby('Overweight')['Overweight'].count()
+print(sum_by_value)
+
+```
+![overweight 2nd vizualisation](/assets/SCR-20231123-uhav.png)
 
 
 ## Data Modeling and Process:
