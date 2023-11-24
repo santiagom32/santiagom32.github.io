@@ -16,8 +16,10 @@ internetservice and customer_id from the 'services' table in the add-on CSV.
 customer_id, monthly_charge, and location_id from the 'customer' table in the original dataset.
 
 Data Modeling and SQL Implementation:
-Creation of a logical data model for the add-on CSV file, emphasizing relational constraints.
+- Creation of a logical data model for the add-on CSV file, emphasizing relational constraints.
 Development of SQL scripts for:
+
+
 - Table creation accommodating the physical extension of the logical data model.
   
 ```sql
@@ -33,7 +35,6 @@ TechSupport text);
 ```
 
 - Data loading from the add-on CSV file into the newly created table.
-
 ```sql
 COPY services (customer_id,
 internetservice, phone,
@@ -44,6 +45,44 @@ FROM 'C:\LabFiles\services.csv'
 DELIMITER ','
 CSV HEADER;
 ```
+
+- SQL Querying: Writing SQL queries to extract meaningful insights that answer the research question.
+```sql
+SELECT l.state AS state
+, s. internetservice AS type,
+SUM (c. monthly_charge) as revenue
+FROM location AS l
+INNER JOIN customer AS c
+ON l.location_id = c.location_id
+INNER JOIN services AS s
+ON c.customer_id = s.customer_id
+WHERE s.internetservice != 'None'
+GROUP BY l.state, s. internetservice
+ORDER BY 1.state, type;
+```
+
+- Data Refresh Strategy: Determination of a data acquisition and refresh strategy, for this specific projectI recomend quarterly updates to keep the data relevant for business analysis.
+
+- Scripting for Data Loading: Development of an SQL script for automating the data loading process of the add-on data.
+Deliverables
+```sql
+COPY services (customer_id,
+internetservice, phone,
+multiple, onlinesecurity,
+onlinebackup,deviceprotection,
+techsupport)
+FROM 'C:\LabFiles\services.csv'
+DELIMITER ','
+CSV HEADER;
+```
+
+SQL Scripts for table creation, data loading, and querying.
+A CSV file capturing the results from the queries.
+A Panopto video recording demonstrating the code functionality and a summary of the programming environment (Link: Panopto Recording).
+
+
+
+
 
 Developing Data Models: I crafted conceptual, logical, and physical models to accurately represent the integrated data.
 Database Operations: I loaded the new, combined data into a pre-existing database and executed various queries to extract meaningful insights.
