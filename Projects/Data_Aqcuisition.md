@@ -80,5 +80,5 @@ CSV HEADER;
 
 ##Deliverables:
 - SQL Scripts for table creation, data loading, and querying.
-- A CSV file capturing the results from the queries. ![download](/assets/D205.csv)
+- A CSV file capturing the results from the queries. [download resulting csv.](/assets/Data_acquisition.csv)
 * ![sample:](/assets/SCR-20231123-rrcf.png)
