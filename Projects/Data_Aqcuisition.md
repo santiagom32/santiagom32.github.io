@@ -63,7 +63,7 @@ ORDER BY 1.state, type;
 ```
 
 ## Data Refresh Strategy: 
-- Determination of a data acquisition and refresh strategy, for this specific projectI recomend quarterly updates to keep the data relevant for business analysis.
+- Determination of a data acquisition and refresh strategy, for this specific project I recomend quarterly updates to keep the data relevant for business analysis.
 
 ## Scripting for Data Loading: 
 - Development of an SQL script for automating the data loading process of the add-on data.
