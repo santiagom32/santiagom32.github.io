@@ -34,7 +34,7 @@ This project focused on analyzing combined data from an original database and an
 [**Project Link**](Projects/Data_Aqcuisition.md)
 
 - [**2. Exploring Factors Influencing Readmission Rates (Data Cleaning & PCA)**](Projects/Data_Cleaning.md)
-I conducted an in-depth analysis of a comprehensive medical dataset to determine the impact of age and being overweight on hospital readmission rates. The dataset, encompassing 50 variables and 10,000 patient records, required extensive data preparation, including cleaning, renaming columns, addressing missing values, and outlier detection. Applying Principal Component Analysis, I identified critical components affecting readmissions. Deliverables included a cleaned dataset and annotated code in “clean_medical_data.ipynb”. The project, documented through a Panopto video, showcased my proficiency in data processing and analysis within the healthcare sector, although limitations like dataset size and reliance on self-reported data were acknowledged.
+I conducted an in-depth analysis of a comprehensive medical dataset to determine the impact of age and being overweight on hospital readmission rates. The dataset, encompassing 50 variables and 10,000 patient records, required extensive data preparation, including cleaning, renaming columns, addressing missing values, and outlier detection. Applying Principal Component Analysis, I identified critical components affecting readmissions. The proyect showcases my proficiency in data processing and analysis within the healthcare sector.
 [**Project Link**](Projects/Data_Aqcuisition.md)
 
 - [**3. Exploratory Data Analysis**](Projects/Exploratory_DataAnalysis.md)
