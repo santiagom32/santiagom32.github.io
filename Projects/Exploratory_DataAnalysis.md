@@ -66,7 +66,7 @@ Found a uniform distribution for age vs. income and diverse drinking habits.
 <img width="200" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/cc6bd99b-402c-446c-91c1-781aafd4c381">
 
 
-## Implications and Significance::
+## Implications and Significance:
 
 The hypothesis test indicated no significant relationship between readmission rates and overweight status.
 Noted limitations in the analysis include the focus on just two of fifty variables and potential data collection biases.
