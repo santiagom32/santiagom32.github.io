@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 import seaborn as sns
 import missingno as msno
+from sklearn.decomposition import PCA
 ```
 ```
 #import the medical dataset 
@@ -196,11 +197,44 @@ boxplot=sns.boxplot(x='Children',data=md_info)
 
 ![z score children](/assets/SCR-20231123-upym.png)
 
-- **Same process followed with remaining features**
+**Same process followed with remaining features**
 
   
 - **PCA Application:** I applied Principal Component Analysis to the dataset, focusing on variables from patient surveys, resulting in the identification of two significant principal components.
-  
+
+```
+#select variables to perform pca
+mdpca = PCA_df[['surv_admission', 'surv_treatment', 'surv_visits', 'surv_reliability', 'surv_options', 'surv_trtmnthours','surv_crtsstaff', 'surv_actvlstng' ]]
+
+#normalize data
+mdpcanormalized=(mdpca-mdpca.mean())/mdpca.std()
+
+#generate PCA
+pca=PCA(n_components=mdpca.shape[1])
+
+#load values
+pca.fit(mdpcanormalized)
+
+#generate PCA values
+loadings=pd.DataFrame(pca.components_.T,
+columns=['PC1','PC2','PC3','PC4','PC5','PC6','PC7','PC8'], 
+index=mdpcanormalized.columns)
+loadings
+```
+[pcavalues](/assets/SCR-20231124-bdyw.png)
+
+```
+#create eigenvalues matrix scree plot to determine PC's with strong relations
+cov_matrix=np.dot(mdpcanormalized.T,mdpcanormalized) / mdpca.shape[0]
+eigenvalues=[np.dot(eigenvector.T, np.dot(cov_matrix, eigenvector))for eigenvector in pca.components_]
+plt.plot(eigenvalues)
+plt.xlabel("number of components")
+plt.ylabel("eigenvalues")
+plt.axhline(y=1, color="red")
+plt.show
+```
+<img width="461" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/7586b8cb-3a17-42fa-affb-791db831d2ba">
+
 ## Deliverables and Significance:
 
 - The project resulted in a cleaned dataset, ready for in-depth analysis, with PCA revealing key components influencing patient readmissions.
