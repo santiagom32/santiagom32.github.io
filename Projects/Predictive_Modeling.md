@@ -2,7 +2,7 @@
 layout: default
 title: "Predictive_Modeling"
 ---
-# Exploratory Data Analysis Using Multiple Linear Regression
+# Predicting Modeling Using Multiple Linear Regression
 
 ## Objective:
 
