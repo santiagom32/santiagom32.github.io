@@ -26,6 +26,19 @@ import missingno as msno
 md_info=pd.read_csv('/Users/santiago/Desktop/Data_Cleaning_D206/medical data copy/medical_raw_data.csv')
 md_info.shape
 ```
+
+
+do the same for all other variables:
+
+
+
+
+
+
+## Data Modeling and Process:
+
+- **Data Preparation:** The data cleaning plan involved checking dataset size, renaming ambiguous column names, identifying and addressing missing values, and outlier detection.
+
 ```
 md_info.info()
 
@@ -46,6 +59,7 @@ plt.title("null records")
 plt.show()
 ```
 ![null_vizualisation](/assets/SCR-20231123-udza.png)
+
 ```
 #checks for median, mode, mean values before modifying data in "Overweight"
 print("median",md_info['Overweight'].median())
@@ -163,6 +177,7 @@ print("Median:",md_info['Children'].median())
 print("Mode", md_info['Children'].mode())
 print("Mean",md_info['Children'].mean())
 ```
+
 ![Children after imputation](/assets/SCR-20231123-uoxx.png)
 
 ```
@@ -181,17 +196,8 @@ boxplot=sns.boxplot(x='Children',data=md_info)
 
 ![z score children](/assets/SCR-20231123-upym.png)
 
+- **Same process followed with remaining features**
 
-do the same for all other variables:
-
-
-
-
-
-
-## Data Modeling and Process:
-
-- **Data Preparation:** The data cleaning plan involved checking dataset size, renaming ambiguous column names, identifying and addressing missing values, and outlier detection.
   
 - **PCA Application:** I applied Principal Component Analysis to the dataset, focusing on variables from patient surveys, resulting in the identification of two significant principal components.
   
