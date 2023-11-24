@@ -19,7 +19,7 @@ customer_id, monthly_charge, and location_id from the 'customer' table in the or
 - Creation of a logical data model for the add-on CSV file, emphasizing relational constraints.
 Development of SQL scripts for:
 
-![Data Model](assets/SCR-20231123-rnch.png)
+![Data Model](/assets/SCR-20231123-rnch.png)
 
 - Table creation accommodating the physical extension of the logical data model.
 ```sql
@@ -80,5 +80,5 @@ CSV HEADER;
 
 ##Deliverables:
 - SQL Scripts for table creation, data loading, and querying.
-- A CSV file capturing the results from the queries. ![download](assets/D205.csv)
-* ![sample:](assets/SCR-20231123-rrcf.png)
+- A CSV file capturing the results from the queries. ![download](/assets/D205.csv)
+* ![sample:](/assets/SCR-20231123-rrcf.png)
