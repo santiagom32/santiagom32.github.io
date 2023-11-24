@@ -41,7 +41,7 @@ In this project, I conducted an in-depth analysis of a comprehensive medical dat
 In this project, I conducted an in-depth analysis of a medical dataset to examine the relationship between patients' overweight status and readmission rates. Utilizing Python for data analysis, I employed Chi-square testing and univariate and bivariate statistical methods to analyze key variables. The findings indicated no significant dependence of readmission rates on overweight status, despite analyzing 10,000 patient records. The project emphasized my skills in Python, statistical analysis, and data visualization, providing valuable insights for organizations.
 [**Project Link**](Projects/Data_Aqcuisition.md)
   
-- [**4. Exploratory Data Analysis Using Multiple Linear Regression**](Projects/Predictive_Modeling.md)
+- [**4. Predicting Modeling Using Multiple Linear Regression**](Projects/Predictive_Modeling.md)
 
 - [**5. Data Mining**](Projects/Data_Mining.md)
 
