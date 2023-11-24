@@ -113,7 +113,7 @@ print("Median:",md_info['Age'].median())
 print("Mode", md_info['Age'].mode())
 print("Mean",md_info['Age'].mean())
 ```
-![age after imputation](assets/SCR-20231123-ultb.png)
+![age after imputation](/assets/SCR-20231123-ultb.png)
 
 ```
 #generated the z score and printed zscore
@@ -132,7 +132,62 @@ boxplot=sns.boxplot(x='Age',data=md_info)
 ![z score age](/assets/SCR-20231123-umpv.png)
 
 ```
+#histogram for "Children" before imputation
+plt.hist(md_info['Children'])
+plt.xlabel('# of Children')
+plt.ylabel('Frequency')
+plt.title('# of Children in the household')
+plt.show()
+#check for null values and median values of Children before imputation
+print("Null:",md_info['Children'].isnull().sum())
+print("Median:",md_info['Children'].median())
+print("Mode", md_info['Children'].mode())
+print("Mean",md_info['Children'].mean())
 ```
+![children before imputation](/assets/SCR-20231123-uocw.png)
+
+```
+#since data is posivitely skewed will do an univariate imputation with the median: 
+md_info['Children'].fillna(md_info['Children'].median(),inplace=True)
+
+#histogram for "Children" after imputation
+md_info['Children']
+plt.hist(md_info['Children'])
+plt.xlabel('# of Children')
+plt.ylabel('Frequency')
+plt.title('# of Children in the household')
+plt.show()
+#check for null values and median values of Children before imputation
+print("Null:",md_info['Children'].isnull().sum())
+print("Median:",md_info['Children'].median())
+print("Mode", md_info['Children'].mode())
+print("Mean",md_info['Children'].mean())
+```
+![Children after imputation](/assets/SCR-20231123-uoxx.png)
+
+```
+#generated the z score and printed zscore for Children
+md_info['Children_zscore']=stats.zscore(md_info['Children'])
+print(md_info[['Children','Children_zscore']].head)
+#generated histogram to detect outliers in childrens
+plt.hist(md_info['Children_zscore'])
+plt.xlabel('z score')
+plt.ylabel('Frequency')
+plt.title('Children_zscore')
+plt.show()
+#created Age boxplot as well to check for outliers in childrens
+boxplot=sns.boxplot(x='Children',data=md_info)
+```
+
+![z score children](/assets/SCR-20231123-upym.png)
+
+
+do the same for all other variables:
+
+
+
+
+
 
 ## Data Modeling and Process:
 
