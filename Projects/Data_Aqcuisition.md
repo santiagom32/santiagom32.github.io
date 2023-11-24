@@ -19,6 +19,7 @@ Data Modeling and SQL Implementation:
 - Creation of a logical data model for the add-on CSV file, emphasizing relational constraints.
 Development of SQL scripts for:
 
+![Data Model] (assets/SCR-20231123-rnch.png)
 
 - Table creation accommodating the physical extension of the logical data model.
   
