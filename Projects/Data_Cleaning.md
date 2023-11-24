@@ -81,6 +81,58 @@ print(sum_by_value)
 ```
 ![overweight 2nd vizualisation](/assets/SCR-20231123-uhav.png)
 
+```
+#generated the z score and printed zscore on overweight
+md_info['Overweight_zscore']=stats.zscore(md_info['Overweight'])
+print(md_info[['Overweight','Overweight_zscore']].head)
+#generated histogram to detect outliers
+plt.hist(md_info['Overweight_zscore'])
+plt.xlabel('Overweight zscore')
+plt.ylabel('Frequency')
+plt.title('Overweight_zscore')
+plt.show()
+
+```
+![overweight z score](/assets/SCR-20231123-ukjb.png)
+
+```
+#imputation of random values from Age min and max
+md_info['Age'] = md_info['Age'].apply(lambda x: np.random.uniform(md_info['Age'].min(), md_info['Age'].max()) if pd.isnull(x) else x)
+
+#histogram for "Age" after imputation
+age_values = md_info['Age']
+plt.hist(age_values)
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.title('Distribution of Age')
+plt.show()
+
+#check for null values and median values of the data after imputation
+print("Null:",md_info['Age'].isnull().sum())
+print("Median:",md_info['Age'].median())
+print("Mode", md_info['Age'].mode())
+print("Mean",md_info['Age'].mean())
+```
+![age after imputation](assets/SCR-20231123-ultb.png)
+
+```
+#generated the z score and printed zscore
+md_info['age_zscore']=stats.zscore(md_info['Age'])
+print(md_info[['Age','age_zscore']].head)
+#generated histogram to detect outliers
+plt.hist(md_info['age_zscore'])
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.title('Age zscore')
+plt.show()
+#created Age boxplot as well to check for outliers
+boxplot=sns.boxplot(x='Age',data=md_info)
+```
+
+![z score age](/assets/SCR-20231123-umpv.png)
+
+```
+```
 
 ## Data Modeling and Process:
 
