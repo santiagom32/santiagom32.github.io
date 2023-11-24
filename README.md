@@ -34,10 +34,12 @@ This project focused on analyzing combined data from an original database and an
 [**Project Link**](Projects/Data_Aqcuisition.md)
 
 - [**2. Exploring Factors Influencing Readmission Rates (Data Cleaning & PCA)**](Projects/Data_Cleaning.md)
-I conducted an in-depth analysis of a comprehensive medical dataset to determine the impact of age and being overweight on hospital readmission rates. The dataset, encompassing 50 variables and 10,000 patient records, required extensive data preparation, including cleaning, renaming columns, addressing missing values, and outlier detection. Applying Principal Component Analysis, I identified critical components affecting readmissions. The proyect showcases my proficiency in data processing and analysis within the healthcare sector.
+In this project, I conducted an in-depth analysis of a comprehensive medical dataset to determine the impact of age and being overweight on hospital readmission rates. The dataset, encompassing 50 variables and 10,000 patient records, required extensive data preparation, including cleaning, renaming columns, addressing missing values, and outlier detection. Applying Principal Component Analysis, I identified critical components affecting readmissions. The proyect showcases my proficiency in data processing and analysis within the healthcare sector.
 [**Project Link**](Projects/Data_Aqcuisition.md)
 
 - [**3. Exploratory Data Analysis**](Projects/Exploratory_DataAnalysis.md)
+In this project, I conducted an in-depth analysis of a medical dataset to examine the relationship between patients' overweight status and readmission rates. Utilizing Python for data analysis, I employed Chi-square testing and univariate and bivariate statistical methods to analyze key variables. The findings indicated no significant dependence of readmission rates on overweight status, despite analyzing 10,000 patient records. The project emphasized my skills in Python, statistical analysis, and data visualization, providing valuable insights for organizations.
+[**Project Link**](Projects/Data_Aqcuisition.md)
   
 - [**4. Predictive Modeling**](Projects/Predictive_Modeling.md)
 
