@@ -221,7 +221,8 @@ columns=['PC1','PC2','PC3','PC4','PC5','PC6','PC7','PC8'],
 index=mdpcanormalized.columns)
 loadings
 ```
-[pcavalues](/assets/SCR-20231124-bdyw.png)
+<img width="535" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/22e64e81-8ac5-4a5d-8f3e-4f8946f8ff70">
+
 
 ```
 #create eigenvalues matrix scree plot to determine PC's with strong relations
@@ -235,15 +236,13 @@ plt.show
 ```
 <img width="461" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/7586b8cb-3a17-42fa-affb-791db831d2ba">
 
-## Deliverables and Significance:
-
-- The project resulted in a cleaned dataset, ready for in-depth analysis, with PCA revealing key components influencing patient readmissions.
-- Annotated code provided in “clean_medical_data.ipynb”.
-- Cleaned dataset available as “D206cleaned_medical_dataset.csv”.
-  
 ## Limitations and Impact:
 
-Limitations included dataset size and self-reported data, potentially affecting the analysis's accuracy.
+- Limitations included dataset size and self-reported data, potentially affecting the analysis's accuracy.
 These limitations could impact the certainty of findings related to the research question.
+
+## Deliverables and Significance:
+
+- The project resulted in a cleaned dataset, ready for in-depth analysis, with PCA revealing key components influencing patient readmis sions.
 
 This project highlights my skills in data cleaning, PCA application, and analysis within a healthcare context, demonstrating my ability to draw insights from complex datasets.
