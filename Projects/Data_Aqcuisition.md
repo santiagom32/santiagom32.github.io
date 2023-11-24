@@ -20,7 +20,8 @@ Creation of a logical data model for the add-on CSV file, emphasizing relational
 Development of SQL scripts for:
 - Table creation accommodating the physical extension of the logical data model.
   
-```CREATE TABLE services
+```sql
+CREATE TABLE services
 (customer_id text PRIMARY KEY,
 InternetService text,
 Phone text,
@@ -28,18 +29,21 @@ Multiple text,
 OnlineSecurity text,
 OnlineBackup text,
 DeviceProtection text,
-TechSupport text);```
+TechSupport text);
+```
 
 - Data loading from the add-on CSV file into the newly created table.
 
-``` COPY services (customer_id,
+```sql
+COPY services (customer_id,
 internetservice, phone,
 multiple, onlinesecurity,
 onlinebackup,deviceprotection,
 techsupport)
 FROM 'C:\LabFiles\services.csv'
 DELIMITER ','
-CSV HEADER; ```
+CSV HEADER;
+```
 
 Developing Data Models: I crafted conceptual, logical, and physical models to accurately represent the integrated data.
 Database Operations: I loaded the new, combined data into a pre-existing database and executed various queries to extract meaningful insights.
