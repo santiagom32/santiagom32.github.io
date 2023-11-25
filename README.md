@@ -46,6 +46,9 @@ In this project, I delved into a medical dataset comprising 10,000 records to id
 [**Project Link**](Projects/Predictive_Modeling.md)
 
 - [**5. Predicting Modeling Using Logistic Regression**](Projects/Predicting_modeling2.md)
+In this project, I utilized logistic regression to analyze a detailed medical dataset, aiming to identify predictors of patient readmission. This involved extensive data cleaning and preparation in Python, ensuring the dataset was primed for accurate analysis. By rigorously applying logistic regression, I navigated through various assumptions and challenges of the model, employing feature selection techniques to refine it further. The project culminated in identifying key health-related factors that influence readmission rates, showcasing my capability in statistical analysis, critical data handling, and deriving meaningful insights from complex datasets, crucial in the healthcare analytics field.
+[**Project Link**](Projects/Predicting_modeling2.md)
+
 
 - [**5. Data Mining**](Projects/Data_Mining.md)
 
