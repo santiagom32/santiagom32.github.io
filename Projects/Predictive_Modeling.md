@@ -148,8 +148,10 @@ md_info['Complication_risk'].replace(['Low', 'Medium', 'High'], [1,2,3], inplace
 
 The initial model included all potential predictors, which was then refined using backward elimination to focus on statistically significant variables. This approach led to a reduced model that maintained a high R-squared value, indicating the model's effectiveness in explaining the variance of the target variable.
 
+- **Model Creation**
+
 ```
-#created y with all explanatory variables and x with the target variable
+#set y with all explanatory variables and x with the target variable
 cols = md_info.drop('Initial_days',axis=1).columns.tolist()
 x = md_info.drop('Initial_days',axis=1)
 y = md_info['Initial_days']
@@ -164,6 +166,8 @@ model.summary()
 ```
 <img width="422" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/6fa5040b-b003-4144-9728-17efd7d199d9">
 
+- **Backward Step elimination**
+
 ```
 #Manually proceeded with backward step elimination until final model:
 selected_feature_indices = [0, 2, 3, 6, 7, 9, 12, 13, 14, 15, 16, 17, 18]
@@ -174,6 +178,8 @@ print(summary
 
 ```
 <img width="618" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/39c2d318-a5f0-4d12-8262-22370fbb810b">
+
+- **model accuracy**
 
 ```
 msr_reduced = reduced_model.mse_resid
@@ -213,5 +219,5 @@ The limitations of the analysis were acknowledged, including assumptions of line
 
 Recommended refining the dataset to include more standardized health statistics for better predictability of hospitalization duration based on health-related variables.
 
-- project, I showcased a wide array of data science skills, including robust statistical analysis using multiple linear regression, comprehensive data preparation and cleaning, and adept use of Python and its key libraries like Pandas and NumPy. The project highlighted my proficiency in encoding categorical data for regression, understanding and applying regression assumptions, and employing feature selection techniques like backward elimination for model optimization. Additionally, it demonstrated my ability to interpret complex model outputs, effectively communicate findings, and acknowledge the limitations of the analysis. These skills collectively underscore my capability to tackle real-world data challenges, making this project a significant addition to my professional portfolio in data science.
+- In this project, I showcased a wide array of data science skills, including robust statistical analysis using multiple linear regression, comprehensive data preparation and cleaning, and adept use of Python and its key libraries like Pandas and NumPy. The project highlighted my proficiency in encoding categorical data for regression, understanding and applying regression assumptions, and employing feature selection techniques like backward elimination for model optimization. Additionally, it demonstrated my ability to interpret complex model outputs, effectively communicate findings, and acknowledge the limitations of the analysis. These skills collectively underscore my capability to tackle real-world data challenges, making this project a significant addition to my professional portfolio in data science.
 
