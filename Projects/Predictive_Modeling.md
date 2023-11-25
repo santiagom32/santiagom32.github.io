@@ -20,6 +20,8 @@ Multiple linear regression was chosen for its ability to handle multiple indepen
 
 The process involved data cleaning (removing duplicates/nulls), outlier detection, and transformation of categorical variables into numerical data for regression analysis using label encoding and dummy encoding. The data was carefully prepared, ensuring relevance to the research question.
 
+- **Exploratory Analysis**
+
 ```pyhon
 #check for duplicates
 print(md_info.duplicated().value_counts())
@@ -72,7 +74,9 @@ md_info_describe = md_info.describe(include='all')
 print(md_info_describe)
 ```
 
-- <img width="418" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/02d2511e-969a-4185-9f1c-da034e48c524">
+<img width="418" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/02d2511e-969a-4185-9f1c-da034e48c524">
+
+- **Univariable Visualizations**
 
 ```
 #created a list of variables to plot
@@ -101,6 +105,8 @@ plt.show()
 
 <img width="600" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/e3b42c1c-e85e-4e01-a6b4-2aeb857f27be">
 
+- **Bivariable Visualizations**
+
 ```python
 
 # List of explanatory variables names to plot against 'Initial_days'
@@ -126,6 +132,7 @@ for i, column in enumerate(columns_to_plot):
 
 <img width="600" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/c4268dcd-74db-440c-bea4-bdd8d3ec2a7a">
 
+- ***Feature encoding***
 
 ```
 #created dummie variables for nominal categorical values and dropped 1 column 
