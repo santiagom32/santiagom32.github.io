@@ -18,7 +18,25 @@ Multiple linear regression was chosen for its ability to handle multiple indepen
 
 ## Data Preparation:
 
-The process involved data cleaning (removing duplicates/nulls), outlier detection, and transformation of categorical variables into numerical data for regression analysis. The data was carefully prepared, ensuring relevance to the research question.
+The process involved data cleaning (removing duplicates/nulls), outlier detection, and transformation of categorical variables into numerical data for regression analysis using label encoding and dummy encoding. The data was carefully prepared, ensuring relevance to the research question.
+
+```pyhon
+#created dummie variables for nominal categorical values and dropped 1 column 
+md_info = pd.get_dummies(data=md_info, columns=['ReAdmis','Soft_drink','HighBlood','Stroke',
+                     'Overweight','Arthritis','Diabetes',
+                     'Hyperlipidemia','BackPain','Anxiety',
+                     'Allergic_rhinitis','Reflux_esophagitis','Asthma'],drop_first=True)
+#labelencodign
+md_info['Complication_risk'].replace(['Low', 'Medium', 'High'], [1,2,3], inplace =True)
+```
+
+
+<img width="418" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/02d2511e-969a-4185-9f1c-da034e48c524">
+
+<img width="790" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/e3b42c1c-e85e-4e01-a6b4-2aeb857f27be">
+
+<img width="468" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/c4268dcd-74db-440c-bea4-bdd8d3ec2a7a">
+
 
 ## Model Analysis:
 
