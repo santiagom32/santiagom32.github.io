@@ -33,9 +33,9 @@ md_info['Complication_risk'].replace(['Low', 'Medium', 'High'], [1,2,3], inplace
 
 <img width="418" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/02d2511e-969a-4185-9f1c-da034e48c524">
 
-<img width="790" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/e3b42c1c-e85e-4e01-a6b4-2aeb857f27be">
+<img width="600" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/e3b42c1c-e85e-4e01-a6b4-2aeb857f27be">
 
-<img width="468" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/c4268dcd-74db-440c-bea4-bdd8d3ec2a7a">
+<img width="600" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/c4268dcd-74db-440c-bea4-bdd8d3ec2a7a">
 
 
 ## Model Analysis:
