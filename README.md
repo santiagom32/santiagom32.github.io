@@ -45,7 +45,7 @@ In this project, I conducted an in-depth analysis of a medical dataset to examin
 In this project, I delved into a medical dataset comprising 10,000 records to identify factors influencing hospital stay durations. Utilizing Python for data cleaning, transformation, and analysis, I applied multiple linear regression, focusing on feature selection through backward elimination to enhance the model's accuracy. The project not only highlighted my technical skills in statistical analysis and Python programming but also emphasized my ability to interpret and communicate complex data insights, showcasing my comprehensive data science expertise.
 [**Project Link**](Projects/Predictive_Modeling.md)
 
-- [**5. Predicting Modeling Using Logistic Regression**]
+- [**5. Predicting Modeling Using Logistic Regression**](Projects/Predicting_modeling2.md)
 
 - [**5. Data Mining**](Projects/Data_Mining.md)
 
