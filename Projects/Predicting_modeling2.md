@@ -102,12 +102,12 @@ md_info['ReAdmis'].replace(['Yes','No'],[1,0],inplace=True)
 ```
 
 **exploratory analaysis**
-- Univariable Vizualization
+- Univariable Visualizations:
 
 <img width="735" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/d0d124e1-a244-40f1-8705-0ceff4fcc1cf">
 
 
-- Bivariable Vizualisations:
+- Bivariable Visualizations:
 
 <img width="493" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/3679ef19-0db5-4c8d-aae6-3c4f22228002">
 
@@ -228,3 +228,7 @@ The reduced model effectively highlighted the influence of various health-relate
 ## Recommendations:
 
 for this project is recommended to continuously update the model with new patient data to validate and enhance its predictive accuracy. Further, a more granular examination of statistically significant variables using detailed health data could provide deeper insights into specific risk factors affecting patient readmission.
+
+## Significance:
+
+In this project project, I adeptly applied logistic regression to a medical dataset, showcasing my skills in statistical analysis, data preparation, and Python programming. The project involved cleaning and transforming a large dataset, understanding and applying logistic regression assumptions, and employing feature selection for model optimization. My analysis focused on identifying key factors influencing patient readmission, demonstrating my ability to interpret complex data and extract meaningful insights, crucial for informed decision-making in healthcare. This work highlights my proficiency in data science, particularly in handling real-world data challenges and deriving actionable knowledge from them.
