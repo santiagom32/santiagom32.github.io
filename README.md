@@ -52,6 +52,7 @@ In this project, I utilized logistic regression to analyze a detailed medical da
 
 - [**5. Data Mining**](Projects/Data_Mining.md)
 
+
 - [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
  
 - [**7. Advanced Data Acquisition**](Projects/Advanced_Dataacquisition.md)
