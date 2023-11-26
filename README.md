@@ -55,6 +55,7 @@ In this project, I applied the K-nearest neighbor (KNN) classification method to
 [**Project Link**](Projects/Data_Mining.md)
 
 - [**7.Health Care Lasso Regression**](Projects/data_mining2.md)
+In this project I applied Lasso regression to a medical dataset to identify factors influencing the initial length of hospital stays. The project involved a detailed data preparation phase, converting categorical variables to numerical and scaling continuous variables for optimal regression analysis. Using Python and its libraries, I effectively implemented Lasso regression, a method chosen for its ability to perform feature selection in large datasets. The analysis focused on identifying the most influential variables on the 'Initial Days' target variable. The model revealed 'Total Charge' as a significant predictor, highlighting a need for more diverse data to fully understand hospital stay durations. This project not only displayed my technical proficiency in advanced statistical methods and data processing but also my ability to derive actionable insights from complex healthcare data.
 [**Project Link**](Projects/data_mining2.md)
 
 - [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
