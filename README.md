@@ -50,8 +50,9 @@ In this project, I utilized logistic regression to analyze a detailed medical da
 [**Project Link**](Projects/Predicting_modeling2.md)
 
 
-- [**5. Data Mining**](Projects/Data_Mining.md)
-
+- [**6. Health Care K-nearest Neighbor**](Projects/Data_Mining.md)
+In this project, I applied the K-nearest neighbor (KNN) classification method to a comprehensive medical dataset to predict patient readmission rates. This project involved extensive data preprocessing, including cleaning and encoding a range of categorical and continuous variables. Utilizing Python and its robust libraries, I effectively managed the dataset, optimized the KNN model through GridSearchCV, and evaluated its performance using accuracy scores and AUC metrics. The analysis revealed the model's high predictive accuracy, although it also highlighted the need for more nuanced data to enhance predictive insights. This project not only demonstrates my technical prowess in handling and analyzing complex healthcare data but also underscores my ability to interpret analytical outcomes and propose actionable recommendations based on the findings.
+[**Project Link**](Projects/Data_Mining.md)
 
 - [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
  
