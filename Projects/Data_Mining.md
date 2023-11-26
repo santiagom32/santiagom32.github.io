@@ -81,7 +81,7 @@ y_pred=knn_best.predict(x_test)
 knn_best.score(x_test,y_test)
 ```
 <img width="590" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/1cc42075-0e4c-44fd-b06b-a349c5b86a8d">
-<img width="458" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/732e4f9b-e220-4b04-be4a-1750bd3d3550">
+<img width="590" alt="image" src="https://github.com/santiagom32/santiagom32.github.io/assets/138883598/732e4f9b-e220-4b04-be4a-1750bd3d3550">
 
 ```
 #roc curve
