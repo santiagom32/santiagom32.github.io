@@ -126,3 +126,7 @@ The model achieved a high accuracy score and AUC, indicating its effectiveness i
 ## Recommendations:
 
 Future actions include testing the model with new data to validate its predictive power and refining data collection processes for medical variables to increase analysis accuracy. Additionally, conducting feature selection on explanatory variables could provide deeper insights into their relationships with readmissions.
+
+## Impact:
+
+In this project I showcase a wide array of skills in data science and analytics, particularly  the application of the K-nearest neighbor (KNN) method for predictive modeling in a healthcare context. It highlights proficiency in data preparation and cleaning, including handling complex datasets with both categorical and continuous variables. Adept use of Python, demonstrated through the utilization of various libraries for data processing and model building, underscores your technical expertise. The project also reflects your ability to apply sophisticated classification techniques, assess model performance using metrics like accuracy and AUC, and interpret results to derive meaningful insights. Furthermore, it shows your understanding of the limitations of your analysis and your ability to make informed recommendations, illustrating not only your analytical skills but also critical thinking and problem-solving abilities in a real-world scenario.
