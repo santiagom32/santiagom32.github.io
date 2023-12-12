@@ -1,5 +1,5 @@
 ---
 layout: default
-title: "d212 kmeansCustering"
+title: "d212 2"
 ---
-# d212 kmeansCustering
+# d212 2 
