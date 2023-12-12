@@ -23,6 +23,8 @@ Seaborn and matplotlib.pyplot for data visualization.
 Plotnine for generating density plots.
 StandardScaler and KMeans from sklearn for data scaling and clustering.
 silhouette_score from sklearn.metrics to evaluate model accuracy.
+
+
 Data Preparation
 
 ## Preprocessing Goal: 
@@ -38,6 +40,10 @@ Data exploration and dropping irrelevant features.
 Null and duplicate value checks.
 Data scaling using StandardScaler.
 Cleaned Dataset: Provided as an attached CSV file.
+
+
+
+
 Analysis
 
 Determining Optimal Clusters:
