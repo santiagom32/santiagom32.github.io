@@ -67,6 +67,10 @@ The project utilized PCA on a medical dataset to identify health and readmission
 [**2.Data Mining II -3 – D212**](Projects/d212-3.md)
 Market Basket Analysis in Medical Prescriptions: This extensive project applied sophisticated market basket analysis to a comprehensive medical prescriptions dataset. The goal was to uncover patterns in medication prescriptions that might correlate with patient readmission risks. By employing the Apriori algorithm, the study meticulously generated association rules, dissecting the relationships between various medications through support, confidence, and lift metrics. The analysis revealed several medication combinations but also highlighted the overall weakness of these relationships, suggesting the need for more focused datasets for in-depth analysis. This project not only demonstrated an advanced application of market basket analysis in a healthcare setting but also provided critical insights for healthcare management, particularly in strategizing to reduce readmission rates.
 
+
+[**d213-1Time Series Modeling in Medical Revenue Forecasting**](Projects/d213-1.md)
+This comprehensive project delved into forecasting daily revenue in a healthcare setting using sophisticated time series modeling techniques. By analyzing two years of revenue data, the project aimed to predict the next quarter’s revenue, providing valuable insights for financial planning and patient readmission strategies. The project encompassed meticulous data preparation, including stationarity checks and time series decomposition, followed by the careful selection of an ARIMA model. The final forecast demonstrated the model's effectiveness in predicting revenue, with a high degree of accuracy as indicated by the mean absolute error. The project not only showcased my advanced analytical skills in time series modeling but also highlighted the potential of such models in strategic healthcare management, particularly in correlating financial metrics with patient care outcomes.
+
 - [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
  
 - [**7. Advanced Data Acquisition**](Projects/Advanced_Dataacquisition.md)
