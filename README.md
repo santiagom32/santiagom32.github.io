@@ -61,7 +61,8 @@ In this project I applied Lasso regression to a medical dataset to identify fact
 [**2.Data Mining II -1 – D212 **](Projects/d212-1-kmeansCusterin.md)
 Task This project analyzed a medical dataset using k-means clustering to classify patients based on income, initial hospitalization days, total cost, and additional charges. The process involved choosing appropriate clustering techniques, preparing and scaling the data, and determining the optimal number of clusters. The analysis revealed two distinct clusters but also highlighted the limitations of the k-means algorithm, particularly regarding the assumption of feature independence. The project emphasized the importance of careful feature selection in clustering techniques and provided insights into patient classification based on hospitalization data. The project enhanced my skills in data mining, clustering analysis, and the use of Python libraries for data science.
 
-[**2.Data Mining II -1 – D212 **](Projects/d212-2.md)
+[**2.Data Mining II -2 – D212 **](Projects/d212-2.md)
+The project utilized PCA on a medical dataset to identify health and readmission patterns. By applying PCA, the project aimed to simplify the data for analysis and visualization, focusing on 18 continuous variables. The PCA identified seven principal components capturing 63.2% of the dataset variance, suggesting a need for more components to reduce information loss. This analysis showcased skills in data reduction techniques and highlighted the balance between simplifying data and maintaining enough variance for accurate insights. The project reinforced the importance of careful consideration in component selection for effective data analysis.
 
 
 - [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
