@@ -19,16 +19,18 @@ Can patients be effectively classified based on their income, initial hospitaliz
 ## Technique Justification
 
 **Choice of Clustering Technique:** K-means, using only continuous variables.
+
 **Rationale:** K-means is efficient for large datasets and works well with numerical data. It requires less processing power and is suitable when the number of clusters is known or can be estimated.
+
 **Assumption:** Assumes independence among features and equal contribution to the distance between data points.
 
 ## Tools and Libraries:
 
-Pandas for data analysis and manipulation.
-Seaborn and matplotlib.pyplot for data visualization.
-Plotnine for generating density plots.
-StandardScaler and KMeans from sklearn for data scaling and clustering.
-silhouette_score from sklearn.metrics to evaluate model accuracy.
+- Pandas for data analysis and manipulation.
+- Seaborn and matplotlib.pyplot for data visualization.
+- Plotnine for generating density plots.
+- StandardScaler and KMeans from sklearn for data scaling and clustering.
+- silhouette_score from sklearn.metrics to evaluate model accuracy.
 
 
 ## Data Preparation
