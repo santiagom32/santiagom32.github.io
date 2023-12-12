@@ -1,22 +1,23 @@
 ---
 layout: default
-title: "Data Acquisition"
+title: "d212 kmeansCustering"
 ---
+# d212 kmeansCustering
 
-Overview
+## Overview
 This project explores a medical dataset containing information on 10,000 patients to uncover factors indicating readmission risks using clustering techniques. It aims to classify patients based on their income, initial hospitalization days, total cost, and additional charges.
 
-Objective
+## Objective
 To identify patterns within the selected features (income, initial hospitalization days, total cost, and additional charges) to classify patients into distinct groups and evaluate the accuracy and differences of these classifications.
 
-Research Question
+## Research Question
 Can patients be effectively classified based on their income, initial hospitalization days, total cost, and additional charges?
 
-Technique Justification
+## Technique Justification
 Choice of Clustering Technique: K-means, using only continuous variables.
 Rationale: K-means is efficient for large datasets and works well with numerical data. It requires less processing power and is suitable when the number of clusters is known or can be estimated.
 Assumption: Assumes independence among features and equal contribution to the distance between data points.
-Tools and Libraries:
+##Tools and Libraries:
 Pandas for data analysis and manipulation.
 Seaborn and matplotlib.pyplot for data visualization.
 Plotnine for generating density plots.
@@ -24,7 +25,8 @@ StandardScaler and KMeans from sklearn for data scaling and clustering.
 silhouette_score from sklearn.metrics to evaluate model accuracy.
 Data Preparation
 
-Preprocessing Goal: The data must contain only continuous variables and scaled values for effective K-means clustering.
+## Preprocessing Goal: 
+The data must contain only continuous variables and scaled values for effective K-means clustering.
 Data Variables:
 Income (Continuous)
 Initial_days (Continuous)
