@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "d212 kmeansCustering"
+title: "K-Means Clustering"
 ---
-# d212 kmeansCustering
+# K-Means Clustering with Medical Data
 
 ## Overview
 
