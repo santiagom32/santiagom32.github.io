@@ -49,37 +49,27 @@ In this project, I delved into a medical dataset comprising 10,000 records to id
 In this project, I utilized logistic regression to analyze a detailed medical dataset, aiming to identify predictors of patient readmission. This involved extensive data cleaning and preparation in Python, ensuring the dataset was primed for accurate analysis. By rigorously applying logistic regression, I navigated through various assumptions and challenges of the model, employing feature selection techniques to refine it further. The project culminated in identifying key health-related factors that influence readmission rates, showcasing my capability in statistical analysis, critical data handling, and deriving meaningful insights from complex datasets, crucial in the healthcare analytics field.
 [**Project Link**](Projects/Predicting_modeling2.md)
 
-
 - [**6. Health Care K-nearest Neighbor**](Projects/Data_Mining.md)
 In this project, I applied the K-nearest neighbor (KNN) classification method to a comprehensive medical dataset to predict patient readmission rates. This project involved extensive data preprocessing, including cleaning and encoding a range of categorical and continuous variables. Utilizing Python and its robust libraries, I effectively managed the dataset, optimized the KNN model through GridSearchCV, and evaluated its performance using accuracy scores and AUC metrics. The analysis revealed the model's high predictive accuracy, although it also highlighted the need for more nuanced data to enhance predictive insights. This project not only demonstrates my technical prowess in handling and analyzing complex healthcare data but also underscores my ability to interpret analytical outcomes and propose actionable recommendations based on the findings.
 [**Project Link**](Projects/Data_Mining.md)
 
-- [**7.Health Care Lasso Regression**](Projects/data_mining2.md)
+- [**7. Health Care Lasso Regression**](Projects/data_mining2.md)
 In this project I applied Lasso regression to a medical dataset to identify factors influencing the initial length of hospital stays. The project involved a detailed data preparation phase, converting categorical variables to numerical and scaling continuous variables for optimal regression analysis. Using Python and its libraries, I effectively implemented Lasso regression, a method chosen for its ability to perform feature selection in large datasets. The analysis focused on identifying the most influential variables on the 'Initial Days' target variable. The model revealed 'Total Charge' as a significant predictor, highlighting a need for more diverse data to fully understand hospital stay durations. This project not only displayed my technical proficiency in advanced statistical methods and data processing but also my ability to derive actionable insights from complex healthcare data.
 [**Project Link**](Projects/data_mining2.md)
 
-[**2.Data Mining II -1 – D212**](Projects/d212-1-kmeansCusterin.md)
+[**8. K-Means Clustering**](Projects/d212-1-kmeansCusterin.md)
 Task This project analyzed a medical dataset using k-means clustering to classify patients based on income, initial hospitalization days, total cost, and additional charges. The process involved choosing appropriate clustering techniques, preparing and scaling the data, and determining the optimal number of clusters. The analysis revealed two distinct clusters but also highlighted the limitations of the k-means algorithm, particularly regarding the assumption of feature independence. The project emphasized the importance of careful feature selection in clustering techniques and provided insights into patient classification based on hospitalization data. The project enhanced my skills in data mining, clustering analysis, and the use of Python libraries for data science.
 
-[**2.Data Mining II -2 – D212**](Projects/d212-2.md)
+[**9. PCA With Medical Dataset**](Projects/d212-2.md)
 The project utilized PCA on a medical dataset to identify health and readmission patterns. By applying PCA, the project aimed to simplify the data for analysis and visualization, focusing on 18 continuous variables. The PCA identified seven principal components capturing 63.2% of the dataset variance, suggesting a need for more components to reduce information loss. This analysis showcased skills in data reduction techniques and highlighted the balance between simplifying data and maintaining enough variance for accurate insights. The project reinforced the importance of careful consideration in component selection for effective data analysis.
 
-[**2.Data Mining II -3 – D212**](Projects/d212-3.md)
-Market Basket Analysis in Medical Prescriptions: This extensive project applied sophisticated market basket analysis to a comprehensive medical prescriptions dataset. The goal was to uncover patterns in medication prescriptions that might correlate with patient readmission risks. By employing the Apriori algorithm, the study meticulously generated association rules, dissecting the relationships between various medications through support, confidence, and lift metrics. The analysis revealed several medication combinations but also highlighted the overall weakness of these relationships, suggesting the need for more focused datasets for in-depth analysis. This project not only demonstrated an advanced application of market basket analysis in a healthcare setting but also provided critical insights for healthcare management, particularly in strategizing to reduce readmission rates.
+[**10. Market Basket Analysis in Medical Prescriptions**](Projects/d212-3.md)
+This extensive project applied sophisticated market basket analysis to a comprehensive medical prescriptions dataset. The goal was to uncover patterns in medication prescriptions that might correlate with patient readmission risks. By employing the Apriori algorithm, the study meticulously generated association rules, dissecting the relationships between various medications through support, confidence, and lift metrics. The analysis revealed several medication combinations but also highlighted the overall weakness of these relationships, suggesting the need for more focused datasets for in-depth analysis. This project not only demonstrated an advanced application of market basket analysis in a healthcare setting but also provided critical insights for healthcare management, particularly in strategizing to reduce readmission rates.
 
-
-[**d213-1Time Series Modeling in Medical Revenue Forecasting**](Projects/d213-1.md)
+[**11. Medical Revenue Forecasting with Time Series Modeling**](Projects/d213-1.md)
 This comprehensive project delved into forecasting daily revenue in a healthcare setting using sophisticated time series modeling techniques. By analyzing two years of revenue data, the project aimed to predict the next quarter’s revenue, providing valuable insights for financial planning and patient readmission strategies. The project encompassed meticulous data preparation, including stationarity checks and time series decomposition, followed by the careful selection of an ARIMA model. The final forecast demonstrated the model's effectiveness in predicting revenue, with a high degree of accuracy as indicated by the mean absolute error. The project not only showcased my advanced analytical skills in time series modeling but also highlighted the potential of such models in strategic healthcare management, particularly in correlating financial metrics with patient care outcomes.
 
-[**Neural Network-Based Sentiment Analysis on Amazon Product Reviews**](Projects/d213-2.md)
+[**12 Neural Network-Based Sentiment Analysis on Amazon Product Reviews**](Projects/d213-2.md)
 This project is a testament to the effective application of LSTM neural networks and NLP in sentiment analysis, specifically in the context of product reviews. Through meticulous data preparation, including normalization and vectorization, and the strategic use of LSTM to understand text context, the project successfully created a model capable of predicting review sentiment with considerable accuracy. The project not only showcases technical proficiency in machine learning and neural networks but also highlights the practical application of these technologies in real-world scenarios such as customer sentiment analysis.
-- [**6. Data Representation (Tableau)**](Projects/Data_Representation.md)
- 
-- [**7. Advanced Data Acquisition**](Projects/Advanced_Dataacquisition.md)
 
-- [**8. Advanced Data Mining**](Projects/Advanced_Datamining.md)
-
-- **9. Time Series Modeling**
-
-- **10. Neural Networks Sentiment Analysis**
 
