@@ -6,7 +6,7 @@
 
 - [santiagomoreno32@icloud.com](mailto:santiagomoreno32@icloud.com) 
 - (407) 227-8568 
-- [LinkedIn](https://www.linkedin.com/in/yesid-moreno-883bb3181/)
+- [LinkedIn](https://www.linkedin.com/in/yesid-moreno-76b872259)
   
 Welcome to my professional portfolio! I am Yesid Moreno, a budding data Analyst/Scientist with a comprehensive background in data analysis, honed through my education journey. My passion for data-driven decision-making and insightful analytics has been the driving force behind each project you will see here.
 
