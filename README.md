@@ -1,4 +1,3 @@
-# Data Scientist
 
 ## Yesid S Moreno
 
@@ -12,7 +11,7 @@ Welcome to my professional portfolio! I am Yesid Moreno, a budding data Analyst/
 
 ## Education:
 
-I am currently enrolled in a  Master's in Data Analytics at Western Governors University, where I delved deep into Deep learning, neural networks, NLP, data regreshion, model architecture, time series analysis, sql, etc. 
+I am recently grauated with a Master's in Data Analytics at Western Governors University, where I delved deep into Deep learning, neural networks, NLP, data regreshion, model architecture, time series analysis, sql, etc. 
 
 -  **Master of Science, Data Analytics** - Western Governors University. In Progress, expected graduation 2024.
 
